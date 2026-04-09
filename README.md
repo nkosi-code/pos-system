@@ -54,7 +54,10 @@ in terminal:
 ### Frontend
 in terminal: 
 1. cd pos-frontend 
-2. npm install 
+```bash
+cd pos-frontend
+    npm install
+    ```
 3. npm start
 
 ## Author
