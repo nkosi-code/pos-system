@@ -8,10 +8,14 @@
 This is a simple Point of Sale (POS) system designed to manage products, sales, and revenue for a business.
 This is free to use, and no attribution is required. Feel free to modify and enhance the system as needed. Please don't forget to leave a ⭐ if you like this project!
 
+### PS: Updates are made when I have time so expect it to be a more advanced POS System as time passes.
+
 ## Features
 🛠️ Authentication (login)
 
 🛠️ Tailwind UI
+
+🛠️ Sidebar Menu
 
 ✅ Add products
 
@@ -25,16 +29,20 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 
 ✅ Dashboard overview
 
+🛠️ Total sales and revenue charts 
+
 🛠️ Receipts System
 
+🛠️ Documents Upload 
+
 ## Tech Stack
-- Frontend: React 
+- Frontend: React (& Tailwind inconing)
 - Backend: ASP.NET Core Web API 
 - Database: SQL Server 
 
 
 ## Screenshots
-(Add screenshots here later)
+(screenshots here later)
 
 ## How to Run
 
