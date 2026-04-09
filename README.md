@@ -28,9 +28,9 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 🛠️ Receipts System
 
 ## Tech Stack
-- Frontend: React
-- Backend: ASP.NET Core Web API
-- Database: SQL Server
+**- Frontend:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+**- Backend:** ![ASP.NET Core Web API](https://img.shields.io/badge/ASP.NET%20Core-8.0-blue)
+**- Database:** ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 ## Screenshots
 (Add screenshots here later)
@@ -38,13 +38,15 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 ## How to Run
 
 ### Backend
-cd POSBackend
-dotnet run
+in terminal: 
+1. cd POSBackend -> 
+2. dotnet run
 
 ### Frontend
-cd pos-frontend
-npm install
-npm start
+in terminal: 
+1. cd pos-frontend ->
+2. npm install -> 
+3. npm start
 
 ## Author
-Nkosi-Code
+NKOSI-CODE
