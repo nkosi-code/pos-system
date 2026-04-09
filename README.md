@@ -47,24 +47,17 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 ## How to Run
 
 ### Backend
-in terminal: 
-1. cd POSBackend 
-2. dotnet run
+```bash
+    cd POSBackend
+dotnet run
+    ```
 
 ### Frontend
-in terminal: 
-1. cd pos-frontend 
 ```bash
 cd pos-frontend
     npm install
+npm start
     ```
-3. npm start
 
 ## Author
-NKOSI-CODE 
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) 
-![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) 
-![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white) 
-![X](https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white) 
-![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white) 
+NKOSI-CODE
