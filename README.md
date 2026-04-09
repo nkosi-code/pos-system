@@ -1,6 +1,6 @@
 # POS System
 
-A Basic Point of Sale (POS) system built using ASP.NET Core and React.
+A Basic Point of Sale (POS) system built using ASP.NET Core and ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## Features
 - Add products
