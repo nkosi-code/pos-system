@@ -100,3 +100,12 @@ button {
     transform: translateY(-3px);
     transition: 0.2s;
 }
+
+@keyframes scaleIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.animate-scaleIn {
+    animation: scaleIn 0.2s ease-in-out;
+}
