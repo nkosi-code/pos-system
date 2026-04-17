@@ -50,11 +50,11 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 ### Backend
     cd POSBackend
 dotnet run
-    ```
+```
 
 ### Frontend
 ```bash
 cd pos-frontend
     npm install
 npm start
-    ```
+```
