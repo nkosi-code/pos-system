@@ -19,36 +19,32 @@ function App() {
     
     return (
         <>
-        <Toaster />
+            <Toaster />
 
-        <div classname="min-h-screen bg-gray-100 p-6">
-            <h1 className="text-3xl font-bold mb-6 text-center">POS System</h1>
-         
-        <Router>
-            <div className="flex">
-                            
-                    <Sidebar isOpen={isOpen} toggle={() => setIsOpen(!isOpen)} />
+            <Router>
+                <div className="flex h-screen">
 
-                <div className="flex-1">
-                                    
-                    <Navbar toggle={() => setIsOpen(!isOpen)} />
-                                       
-                    <div className="p-6">
-                        <Routes>
-                            <Route path="/" element={<Welcome />} />
-                            <Route path="/dashboard" element={<Dashboard />} />
-                            <Route path="/products" element={<Products />} />
-                            <Route path="/user" element={<User />} />
-                        </Routes>
+                    <div className={`transition-all duration-300 ${isOpen ? "w-64" : "w-0"} overflow-hidden`}>
+                        <Sidebar toggle={() => setIsOpen(!isOpen)} />
+                    </div>
+
+                    <div className="flex-1 flex flex-col">
+                        <Navbar toggle={() => setIsOpen(!isOpen)} />
+
+                        <div className="p-6 overflow-y-auto">
+                            <Routes>
+                                <Route path="/" element={<Welcome />} />
+                                <Route path="/dashboard" element={<Dashboard />} />
+                                <Route path="/products" element={<Products />} />
+                                <Route path="/user" element={<User />} />
+                            </Routes>
+                        </div>
                     </div>
 
                 </div>
-            </div>
             </Router>
-
-            </div>
-            </>
-        );    
+        </>
+    );    
 }
 
 export default App;

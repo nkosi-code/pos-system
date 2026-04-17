@@ -11,29 +11,44 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 ### PS: Updates are made when I have time so expect it to be a more advanced POS System as time passes.
 
 ## Features
-🛠️ Authentication (login)
 
-🛠️ Tailwind UI
+✅ Crud Products
 
-🛠️ Sidebar Menu
+✅ Sales Logic  
 
-✅ Add products
+✅ Auth (JWT)  
 
-✅ Delete products
+🛠️ Cart + Checkout  
 
-✅ Sell products
+🛠️ Receipts (print/PDF)  
 
-✅ Track total sales
+🛠️ Password Hashing  
 
-✅ Calculate total revenue
+🛠️ Role-Based Access  
 
-✅ Dashboard overview
+🛠️ Dashboard (sales analytics)  
 
-🛠️ Total sales and revenue charts 
+🛠️ Inventory Management (stock + alerts)  
 
-🛠️ Receipts System
+🛠️ Order History  
 
-🛠️ Documents Upload 
+🛠️ Search & Filters  
+
+🛠️ Payment Handling (cash/card)  
+
+🛠️ Dark Mode  
+
+🛠️ Error Handling + Loading States  
+
+🛠️ Token Expiry + Route Protection  
+
+🛠️ UI Polish (toasts, empty states)  
+
+### ⭐ Bonus:
+🛠️ Barcode Scanner  
+🛠️ Export Data  
+🛠️ Testing  
+
 
 ## Tech Stack
 - Frontend: React (& Tailwind inconing)
@@ -50,25 +65,14 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 ```bash
     cd POSBackend
 dotnet run
-    ```
+```
 
 ### Frontend
 ```bash
 cd pos-frontend
     npm install
 npm start
-    ```
+```
 
 ## Author
-<<<<<<< HEAD
-NKOSI-CODE
-=======
-NKOSI-CODE 
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) 
-![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) 
-![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white) 
-![X](https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white) 
-![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white) 
->>>>>>> 1996ca0 (Added Tailwind, Sidebar, Popup, Toaster and Login)
+- NKOSI-CODE 

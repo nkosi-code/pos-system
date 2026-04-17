@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using POSBackend.Data;
 using POSBackend.Models;
+using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize] // ✅ apply auth to whole controller
 public class ProductsController : ControllerBase
 {
     private readonly AppDbContext _context;
