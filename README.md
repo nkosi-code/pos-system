@@ -46,8 +46,8 @@ This is free to use, and no attribution is required. Feel free to modify and enh
 
 ## How to Run
 
-```bash
 ### Backend
+```bash
     cd POSBackend
 dotnet run
 ```
